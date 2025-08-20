@@ -7,4 +7,4 @@ page_3=st.Page("p3.py",title="Main Page3")
 
 page=st.navigation([page_main,page_1,page_2,page_3])
 
-page
+page.run()
