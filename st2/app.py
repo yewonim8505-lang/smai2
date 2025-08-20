@@ -11,7 +11,7 @@ page_5 = st.Page("p5.py", title="Page 5", icon="❄️")
 page_6 = st.Page("p6.py", title="Page 6", icon="❄️")
 page_7 = st.Page("p7.py", title="Page 7", icon="❄️")
 # Set up navigation
-pg = st.navigation([main_page,page_1,page_2,page_3,page_4,page_5])
+page = st.navigation([main_page,page_1,page_2,page_3,page_4,page_5,page_6,page_7])
 
 # Run the selected page
 page.run()
